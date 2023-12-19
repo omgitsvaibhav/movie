@@ -6,4 +6,6 @@
 while setting up the project as it will be needed for the uri.<br/>
 - run npm start in the backend directory to start the server.<br/>
 - open another console and to test the server, run: 
-  > Invoke-WebRequest -Uri "http://localhost:port_number/api/v1/password/storepassword" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"password": "test_password"}'
+  > Invoke-WebRequest -Uri "http://localhost:port_number/api/v1/reviews/new" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"movieId": 12, "user": "beau", "review": "good"}'
+  
+  or any other HTTP method using cURL or other methods.
